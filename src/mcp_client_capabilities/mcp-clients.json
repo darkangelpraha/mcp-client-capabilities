@@ -14,9 +14,10 @@
   },
   "Alpic": {
     "protocolVersion": "2025-06-18",
-    "title": "Alpic",
+    "title": "Alpic Playground",
+    "tools": {},
     "elicitation": {},
-    "url": "https://alpic.ai"
+    "url": "https://alpic.ai/blog/launch-week-2-introducing-the-alpic-playground"
   },
   "amp-mcp-client": {
     "protocolVersion": "2025-06-18",
@@ -166,6 +167,28 @@
     "tools": {},
     "url": "https://github.com/features/copilot/cli"
   },
+  "Glama": {
+    "prompts": {},
+    "protocolVersion": "2025-06-18",
+    "resources": {},
+    "sampling": {},
+    "elicitation": {
+      "form": {},
+      "url": {}
+    },
+    "title": "Glama",
+    "tools": {
+      "listChanged": true
+    },
+    "tasks": {
+      "requests": {
+        "tools": {
+          "call": {}
+        }
+      }
+    },
+    "url": "https://glama.ai/chat"
+  },
   "goose": {
     "protocolVersion": "2025-03-26",
     "title": "Goose",
@@ -271,6 +294,13 @@
     "title": "Visual Studio Code",
     "tools": {
       "listChanged": true
+    },
+    "tasks": {
+      "requests": {
+        "tools": {
+          "call": {}
+        }
+      }
     },
     "url": "https://code.visualstudio.com"
   },
